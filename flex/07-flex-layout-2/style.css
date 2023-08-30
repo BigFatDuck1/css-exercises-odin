@@ -66,6 +66,10 @@ a {
   align-items: center;
 }
 
+#header {
+  padding-left: 10px;
+}
+
 
 .grids {
   display: flex;
