@@ -89,3 +89,28 @@
   font-size: 13px;
   font-weight: normal;
 }
+
+/* My solution */
+
+.header {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr 4fr;
+}
+
+.logo {
+  grid-column: 1/1;
+}
+
+.menu {
+  grid-column-start: 3;
+}
+
+.menu > ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+li {
+  list-style-type: none;
+}
