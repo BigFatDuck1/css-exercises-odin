@@ -46,3 +46,38 @@ html {
   color: white;
   text-align: left;
 }
+
+/* Solution */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 10px;
+}
+
+.header {
+  grid-row: 1/1;
+  grid-column: 1/5;
+}
+
+.sidebar {
+  grid-row: 2/7;
+  grid-column: 1/2;
+}
+
+.nav {
+  grid-row: 2/3;
+  grid-column: 2/5;
+}
+
+.article {
+  grid-row: 3/7;
+  grid-column: 2/5;
+}
+
+.footer {
+  grid-row: 7/8;
+  grid-column: 1/5;
+
+}
