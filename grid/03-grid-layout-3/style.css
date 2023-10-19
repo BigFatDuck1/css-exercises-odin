@@ -151,3 +151,23 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+/* Sidebar */
+.sidebar {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  gap: 20px;
+}
+
+.side-content,
+.photo {
+  height: auto;
+}
+
+/* Text inside sidebar */
+.photo,
+.side-content {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
