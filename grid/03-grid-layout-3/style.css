@@ -119,6 +119,7 @@ li {
 /* Big container */
 .container {
   display: grid;
+  gap: 5px;
   grid-template-rows: 100px 50px 1fr 50px;
   grid-template-columns: repeat(5, 1fr); 
 }
@@ -170,4 +171,12 @@ li {
   display: grid;
   justify-content: center;
   align-content: center;
+}
+
+/* Article */
+.article {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, minmax(50px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(50px, 1fr)); 
 }
